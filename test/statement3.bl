@@ -1,0 +1,28 @@
+instr1
+instr2
+WHILE next-is-friend DO
+END WHILE
+IF true THEN
+END IF
+IF random THEN
+    WHILE true DO
+        move
+        IF next-is-not-enemy THEN
+        END IF
+        IF random THEN
+        turnleft
+        infect
+        ELSE
+        go-for-it
+        turnright
+        look-for-something
+        END IF
+        skip
+    END WHILE
+ELSE
+    IF next-is-wall THEN
+        WHILE true DO
+            move
+        END WHILE
+    END IF
+END IF

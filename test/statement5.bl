@@ -1,0 +1,5 @@
+WHILE next-is-not-wall DO
+    IF next-is-wall THEN
+        move
+    END IF
+END WHILE
